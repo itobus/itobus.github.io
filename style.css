@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+
+
+.name{
+    width: 60%;
+    height: 60%;
+    padding-bottom: -40px;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    font-family: 微软雅黑;
+    padding: 30px 0px 30px 0px;
+    margin: 10px;
+}
+
+.nav-item{
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body{
+    padding: 25px 80px 25px 80px;
+    width: auto;
+    height: available;
+}
+
+.time{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+footer{
+    align-content: center;
+    padding: 1px;
+    font-style: italic;
+    font-size: 3px;
+    text-align: center;
+}
+
+.content{
+
+}
+
+.content-title{
+    padding: 0px 20px 20px 20px;
+    font-size: 30px;
+    font-family: 微软雅黑;
+}
+
+
