@@ -8,6 +8,6 @@ function printTime() {
     weekday[4] = "Thursday"
     weekday[5] = "Friday"
     weekday[6] = "Saturday"
-    document.getElementById("time").innerHTML=date.getMonth() + "月" + date.getDay() + "日  " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + "  " + weekday[date.getDay()]
+    document.getElementById("time").innerHTML=date.getMonth() + "月" + date.getDay() + "日  " + date.getHours()+1 + ":" + date.getMinutes() + ":" + date.getSeconds() + "  " + weekday[date.getDay()]
     setTimeout(printTime, 1000)
 }
